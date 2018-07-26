@@ -1,0 +1,9 @@
+easydict
+opencv-python
+numpy
+scikit-image
+protobuf
+pyyaml
+tornado
+werkzeug
+flask
