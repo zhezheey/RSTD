@@ -57,7 +57,7 @@
 
 ### Demo
 
-After completing basic installation, download [our pretrained model on Tsinghua-Tencent 100K]() (Coming soon) and place it inside the `$RSTD_ROOT/output` directory, then you'll be ready to run the demo below.
+After completing basic installation, download [our pre-trained model on Tsinghua-Tencent 100K](https://drive.google.com/open?id=1ZIINGsHyV9m7KjjifgA1CpVXkN_JboAy) and place it inside the `$RSTD_ROOT/output` directory, then you'll be ready to run the demo below.
 
 1. Run the python demo
 	```Shell
