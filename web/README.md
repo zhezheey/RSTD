@@ -1,6 +1,6 @@
 ## RSTD Web Demo
 
-A simply Regular and Small Target Detection demo running as a Flask web server.
+A simple Regular and Small Target Detection demo running as a Flask web server.
 
 The interface is as follows:
 
