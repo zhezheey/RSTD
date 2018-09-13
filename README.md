@@ -74,7 +74,7 @@ After completing basic installation, download [our pre-trained model on Tsinghua
 
 ### Installation (Training and Testing)
 
-1. Download the [Tsinghua-Tencent 100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/) or [GTSDB](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset) dataset and converts it into PASCAL VOC 2007's annotation format. For convenirnce, you can also download them from [here]() (Coming soon).
+1. Download the [Tsinghua-Tencent 100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/) or [GTSDB](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset) dataset and converts it into PASCAL VOC 2007's annotation format. For convenience, you can also download them from [here]() (Coming soon).
 
 2. Create symlinks for the converted PASCAL VOC dataset
 	```Shell
