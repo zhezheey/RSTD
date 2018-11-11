@@ -12,9 +12,9 @@ DEBUG = False
 class RSTDThreeBranchesLayer(caffe.Layer):
     """
     Expand object detection proposals by extracting the surrounding background 
-    and interval key information. Outputs the original ROI, the ROI which focus 
+    and internal key information. Outputs the original ROI, the ROI which focus 
     on the surrounding background information and the ROI which focus on the 
-    interval key information.
+    internal key information.
     """
     
     def setup(self, bottom, top):
@@ -22,7 +22,7 @@ class RSTDThreeBranchesLayer(caffe.Layer):
         top[0].reshape(1, 5)
         # the ROI which focus on the surrounding background information
         top[1].reshape(1, 5)
-        # the ROI which focus on the interval key information
+        # the ROI which focus on the internal key information
         top[2].reshape(1, 5)
 
     def forward(self, bottom, top):
@@ -57,7 +57,7 @@ class RSTDThreeBranchesLayer(caffe.Layer):
         top[1].reshape(*rois.shape)
         top[1].data[...] = rois_b
         
-        # the ROI which focus on the interval key information
+        # the ROI which focus on the internal key information
         top[2].reshape(*rois.shape)
         top[2].data[...] = rois_c
 
