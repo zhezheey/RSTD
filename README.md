@@ -65,7 +65,7 @@ After completing basic installation, download [our pre-trained model on Tsinghua
 	python demo_RSTD.py
 	```
 
-2. Run the web demo, please see the `README.md` in `$RSTD_ROOT/web` for more details.
+2. Run the web demo (see: [web demo instructions](web/README.md))
 	```Shell
 	cd $RSTD_ROOT/web/server
 	# Python 2.7.9+ are needed to run the web demo
@@ -74,7 +74,7 @@ After completing basic installation, download [our pre-trained model on Tsinghua
 
 ### Installation (Training and Testing)
 
-1. Download the [Tsinghua-Tencent 100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/) or [GTSDB](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset) dataset and converts it into PASCAL VOC 2007's annotation format. For convenience, you can also download them from [here]() (Coming soon).
+1. Download the [Tsinghua-Tencent 100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/) or [GTSDB](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset) dataset and convert it into PASCAL VOC 2007's annotation format.
 
 2. Create symlinks for the converted PASCAL VOC dataset
 	```Shell
@@ -92,7 +92,7 @@ After completing basic installation, download [our pre-trained model on Tsinghua
 
 To train and test RSTD models, use `experiments/scripts/RSTD_3_branches.sh` or  `experiments/scripts/RSTD_2_branches.sh`. Output is written underneath `$FRCN_ROOT/output`.
 
-1. Train and test RSTD models:
+1. Train and test RSTD models
 	```Shell
 	cd $RSTD_ROOT
 	./experiments/scripts/RSTD_3_branches.sh [GPU_ID] VGG16 pascal_voc
